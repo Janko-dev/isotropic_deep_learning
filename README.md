@@ -9,25 +9,25 @@ Historically, local coding was thought to be the working mechanism of representi
 More research into neuroscience shed light on a different approach - distributed codes, by which the representation of a concept is distributed across all neurons. This acts as the polar opposite of local codes. For example, for $N$ binary neurons, distributed codes allow for a representational capacity of $2^N$. 
 
 It seems that our current anisotropic deep learning paradigm was build upon the former local codes, as the functional activation forms all exhibit element-wise operations. Performing an activation function element-wise to a vector in $\mathbb{R}^d$ that represents neuronal activity implies that the activation function determines the stimulus, or lack thereof, of each neuron in a layer. The position paper posits that these element-wise activation functions hide an inductive bias, best described as the dependence on the standard (kronecker) basis vectors, as shown in multi-variate form below for the hyperbolic tangent function
-$$
+```math
     f: \mathbb{R}^d \rightarrow \mathbb{R}^d, \qquad f(\mathbf{x}) = \sum_{i=1}^d \tanh(\mathbf{x} \cdot \vec{e}_i) \;\vec{e}_i
-$$
+```
 This basis dependence creates a permutation symmetry, due to the commutative properties of the sum. The permutation invariance is formulation as follows. For any permutation matrix $P$, it holds that
-$$
+```math
     f(P \mathbf{x}) = P f(\mathbf{x})
-$$
+```
 However, it is argues that anisotropic forms lack rotational symmetries. In other words, the symmetry is broken, formalized by the existance of a rotation matrix $R$ and scalar $c \in \mathbb{R}$, such that 
-$$
+```math
     f(R \mathbf{x}) \neq c R f(\mathbf{x})
-$$
+```
 The importance of rotational symmetries is extremely useful, because we often measure similarities between vectors by their angle. Therefore, biasing the activation space to be rotation equivariant enables directions to have equal meaning. 
 
 ![alt text](datasets/tanh_visualization.png)
 
 Isotropic activation functions are designed to be rotation equivariant, i.e., for all rotation matrices $R$ and scalar $c \in \mathbb{R}$, 
-$$
+```math
     f(R \mathbf{x}) = c R f(\mathbf{x})
-$$
+```
 The position paper further hypothesizes that semantic features are better embedded in activation space, which is empirically shown in toy examples.
 
 ## Toy Example: Tanh
