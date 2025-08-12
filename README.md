@@ -34,49 +34,41 @@ The position paper further hypothesizes that semantic features are better embedd
 
 ### Anisotropic
 
-<video src="training_animations/tanh_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/df4de807-cce4-404c-b1d4-f8e2c7449ee6
 
 ### Isotropic
 
-<video src="training_animations/iso_tanh_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/d974b0a6-1fb9-498d-a30b-a19f5ac4d306
 
 ## Toy Example: ReLU
 
 ### Anisotropic 
 
-<video src="training_animations/relu_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/a4f8a19e-3362-4ee2-af84-d40277430966
 
 ### Isotropic
 
-<video src="training_animations/iso_relu_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/590b7db4-854b-4c68-af45-3061c93ffb55
 
 ## Toy Example 3 class problem: Tanh
 
 ### Anisotropic 
 
-<video src="training_animations/multi_tanh_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/b7bead42-2533-4aa2-8bae-595e1131fd11
 
 ### Isotropic
 
-<video src="training_animations/multi_iso_tanh_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/d812f409-defa-471c-951f-80215e8bdd27
 
 ## Toy Example 3 class problem: ReLU
 
 ### Anisotropic 
 
-<video src="training_animations/multi_relu_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/5ad0650c-18c2-4b62-b0f1-28b314428b43
 
 ### Isotropic
 
-<video src="training_animations/multi_iso_relu_training_animation.mp4" controls="controls" style="max-width: 730px;">
-</video>
+https://github.com/user-attachments/assets/2cd3739c-26be-49ac-bfd7-3a94a33bed26
 
 ## MNIST
 
