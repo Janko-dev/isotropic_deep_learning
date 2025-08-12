@@ -24,7 +24,7 @@ The importance of rotational symmetries is extremely useful, because we often me
 
 ![alt text](datasets/tanh_visualization.png)
 
-Isotropic activation functions are designed to be rotation equivariant, i.e., for all rotation matrices $R$ and scalar $c \in \mathbb{R}$, 
+Isotropic activation functions are designed to be rotation equivariant, i.e., for all rotation matrices $R$, there exists a scalar $c \in \mathbb{R}$, such that 
 ```math
     f(R \mathbf{x}) = c R f(\mathbf{x})
 ```
